@@ -7,10 +7,10 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 ## Interfaces de l'application
 
 ### Recherche de livres
-<img src="assets/screenshots/home_page.png" alt="Page d'accueil" width="350"/>
+<img src="home_page.png" alt="Page d'accueil" width="350"/>
 
 ### Favoris
-<img src="assets/screenshots/favoris_page.png" alt="Page des favoris" width="350"/>
+<img src="page_favoris.png" alt="Page des favoris" width="350"/>
 
 ---
 
@@ -27,14 +27,14 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 ## Fonctionnement du code
 
 
-### 🔧 Bloc
+### Bloc
 - `book_event.dart` : définit les événements (recherche de livres)
 - `book_state.dart` : définit les états (chargement, succès, erreur)
 - `book_bloc.dart` : contient la logique de traitement des événements
 
 ### Composant UI + BLoC : `home_page.dart`
 - Champ `TextField` pour entrer un mot-clé
-- Bouton 🔍 déclenchant un événement `SearchBooks`
+- Bouton déclenchant un événement `SearchBooks`
 - `BlocBuilder` pour afficher un `ListView` de `BookCard` selon l'état
 
 ### SQLite : `db_service.dart`
