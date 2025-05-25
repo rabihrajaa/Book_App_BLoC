@@ -2,7 +2,6 @@
 
 Une application Flutter utilisant le pattern BLoC pour rechercher des livres via l'API Google Books et gérer des favoris localement avec SQLite.
 
----
 
 ## Interfaces de l'application
 
@@ -12,7 +11,6 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 ### Favoris
 <img src="page_favoris.png" alt="Page des favoris" width="350"/>
 
----
 
 ## Fonctionnalités
 
@@ -22,7 +20,6 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 - Architecture basée sur le pattern BLoC
 - Persistance locale avec Sqflite
 
----
 
 ## Fonctionnement du code
 
@@ -49,13 +46,11 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 - Affiche les livres enregistrés avec suppression individuelle
 - UI moderne avec header arrondi, image, titre, auteur
 
----
 
 ## Ressource utilisée
 
 - 📘 [Documentation Google Books API](https://developers.google.com/books/docs/v1/using?hl=fr)
 
----
 
 ## Packages utilisés
 
