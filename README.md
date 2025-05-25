@@ -7,7 +7,7 @@ Une application Flutter utilisant le pattern BLoC pour rechercher des livres via
 ## Interfaces de l'application
 
 ### Recherche de livres
-<img src="home_page.png" alt="Page d'accueil" width="350"/>
+<img src="page_home.png" alt="Page d'accueil" width="350"/>
 
 ### Favoris
 <img src="page_favoris.png" alt="Page des favoris" width="350"/>
